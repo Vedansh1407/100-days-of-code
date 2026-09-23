@@ -1,11 +1,14 @@
+// Name: Vedansh Agarwal
+//Sap id: 590042489
+// C program to add two integers
+
+
 #include <stdio.h>
-int num1, num2;
 int main() {
-    printf("Enter two numbers: ");
+    int num1, num2;
+    printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
-    printf("Sum: %d\n", num1 + num2);
-    printf("Difference: %d\n", num1 - num2);
-    printf("Product: %d\n", num1 * num2);
-    printf("Quotient: %.2f\n", (float)num1 / num2);
+    int sum = num1 + num2;
+    printf("Sum: %d\n", sum);
     return 0;
 }
