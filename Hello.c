@@ -8,7 +8,13 @@ int main() {
     int num1, num2;
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
-    int sum = num1 + num2;
-    printf("Sum: %d\n", sum);
+    float sum = num1 + num2;
+    float multiply = num1 * num2;
+    float subtract = num1 - num2;
+    float divide = (float)num1 / num2;
+    printf("Sum: %.2f\n", sum);
+    printf("Product: %.2f\n", multiply);
+    printf("Difference: %.2f\n", subtract);
+    printf("Quotient: %.2f\n", divide);
     return 0;
 }
